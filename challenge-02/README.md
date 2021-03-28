@@ -100,13 +100,13 @@ function newFunction(x,y,z){
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 
-newFunction()
+newFunction();
 // false;
 newFunction(1);
 // 1
 newFunction(1,2);
 // 3
-newFunction(1,2.3)
+newFunction(1,2.3);
 // 1
 
 ```
