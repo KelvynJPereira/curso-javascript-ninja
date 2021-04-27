@@ -191,8 +191,8 @@ correta, de acordo com os dados inseridos no objeto.
 pessoa.apresentacao = function(){ 
 
   if (pessoa.sexo === "Femenino"){ tratamento = 'a'} else { tratamento = 'o'};
-  if (pessoa.idade === '1'){ ano = 'ano'} else { ano = 'anos'};
-  if (pessoa.caminhouQuantosMetros == '1'){ metro = 'metro'} else { metro = 'metros'};
+  if (pessoa.idade === 1){ ano = 'ano'} else { ano = 'anos'};
+  if (pessoa.caminhouQuantosMetros == 1){ metro = 'metro'} else { metro = 'metros'};
 
   return 'Olá, eu sou ' + tratamento + ' ' + pessoa.nome + ' ' + pessoa.sobrenome + ', tenho ' + pessoa.idade + ' ' + ano + ', ' + pessoa.altura + ', meu peso é ' + pessoa.peso + ' e, só hoje, eu já caminhei ' + pessoa.caminhouQuantosMetros + ' ' + metro + '!';
 
