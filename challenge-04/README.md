@@ -199,5 +199,4 @@ dicionarPessoas(10);
 // Quantas pessoas temos no carro?
 carro.quantidadePessoas;
 // 1
-
 ```
